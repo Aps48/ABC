@@ -1,0 +1,60 @@
+[
+    {
+        "id": {
+            "rpt_name": "R1",
+            "bank_id": "DFBANK1",
+            "report_mode_id": 2
+        },
+        "archivalDays": 0,
+        "archivalMonths": 0,
+        "delFlag": "N",
+        "exportPath": " ",
+        "fcReportId": null,
+        "reportFormat": " ",
+        "rptArchive": "N",
+        "rptBurst": "N",
+        "rptDistribute": "N",
+        "rptExport": "N",
+        "rptFormat": "PDF",
+        "rptGenerate": "Y",
+        "rptInstancePath": null,
+        "rptNotes": "N",
+        "rptPrint": "N",
+        "rptRemotePrint": "N",
+        "rptTitle": null,
+        "tsCnt": 0,
+        "reportId": 22,
+        "formDetailsTables": [
+            {
+                "formId": 1,
+                "delFlag": "N",
+                "logoImg": null,
+                "tsCnt": 0,
+                "reportFormMappingTables": [
+                    {
+                        "id": {
+                            "formId": 1,
+                            "reportModeId": 2,
+                            "rptName": "R1"
+                        }
+                    }
+                ],
+                "fieldDetailsTables": [
+                    {
+                        "fieldId": 1,
+                        "controlHeight": 10,
+                        "controlLength": 10,
+                        "controlType": "TXT",
+                        "dataInput": null,
+                        "dataType": "STR",
+                        "delFlag": "N",
+                        "fieldName": "Bank_Id",
+                        "inputLength": 50,
+                        "inputType": "user",
+                        "tsCnt": 0
+                    }
+                ]
+            }
+        ]
+    }
+]
